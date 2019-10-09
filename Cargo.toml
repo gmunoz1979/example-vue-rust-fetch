@@ -1,0 +1,9 @@
+[package]
+name = "example-vue-rust-fetch"
+version = "0.1.0"
+authors = ["Gerard Muñoz <gmunoz1979@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
