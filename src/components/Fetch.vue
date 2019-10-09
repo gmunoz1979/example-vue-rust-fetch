@@ -10,8 +10,9 @@ export default {
     msg: String
   },
   beforeCreate() {
-    import('../../pkg').then(wasm => {
-      wasm.test("Hello World!!!");
+    import('../../pkg').then(async wasm => {
+      const result = await wasm.run();
+      console.log(result);
     });
   }
 }
